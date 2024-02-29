@@ -6,8 +6,8 @@ import datetime
 import csv
 import json
 # You will need to put in your own CLIENT_ID and CLIENT_SECRET as the ones below are fake
-CLIENT_ID='23BJ94'
-CLIENT_SECRET='bb9e501f6b6b098a2df86584e33e469d'
+CLIENT_ID=''
+CLIENT_SECRET=''
 
 server=Oauth2.OAuth2Server(CLIENT_ID, CLIENT_SECRET)
 server.browser_authorize()
